@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Anchor Tag button Styled*/
+.btn-link {
+    background-color: brown;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Override default button style */
+.btn {
+    background-color: orange;
+    border: 0;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Submit button style*/
+
+.input-btn {
+    background-color: green;
+    border: 0;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+input, select, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label > input {
+    display: inline-block;
+}
+
+
+.input {
+    width: 400px;
+    padding: 10px 15px;
+    border: lightblue 1px solid;
+    outline: none;
+}
+
+.input:focus {
+    outline: 1px solid salmon;
+}
+
+input[type="submit"] {
+    background-color: orange;
+    border: 0;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: orangered;
+
+}

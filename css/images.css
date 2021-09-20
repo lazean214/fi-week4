@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bg-image {
+    background-image: url(https://via.placeholder.com/400x400);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.parallax {
+    background-image: url(https://via.placeholder.com/1920x1920);
+    height: 1000px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
